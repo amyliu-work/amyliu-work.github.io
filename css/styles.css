@@ -1,0 +1,207 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body, ul {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+cursor: url('logo.cur'), auto;
+
+div {
+    cursor:url('Logo.cur'),auto;
+}
+
+h1, h2, {
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 150px 150px;
+}
+
+img {
+  max-width: 100%;
+}
+
+div {
+   cursor: url(logo.cur), pointer;
+}
+
+nav {
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 25px; /*0 refers to top and bottom, 15 pixels to left and right*/
+  padding: 0px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right ul {
+    float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+    top: 150px;
+    position: relative;
+    margin-bottom: 200px;
+    z-index: 1px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 120%;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 120%;
+  }
+
+h3 {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+  h1 h2 {
+    font-weight: normal;
+  }
+
+ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+p {
+  line-height: 150%;
+}
+
+li.empty {
+  width: 90px;
+  border-top: 1px solid black;
+  top: -10px;
+  position: relative;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.5s ease-in-out; color ease-in-out;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
+
+.project {
+  margin: 50px 0;
+  padding: 50px;
+}
+
+.project .button {
+  margin-top: 10px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+#slider_1  {
+  overflow: hidden;
+  padding: 0 10px;
+  width: 50%;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: row;
+}
+
+}
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  z-index: 1;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 30px 30px; /*0 refers to top and bottom, 15 pixels to left and right*/
+  padding: 0;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+footer h2 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+figcaption {
+  font-size: 10px;
+  margin-top: 10px;
+}

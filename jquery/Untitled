@@ -1,0 +1,24 @@
+$(document).ready(function() {
+        $('#slider_1').slick({
+        autoplay: true,
+           fade: true,
+           autoplaySpeed: 2000,
+           speed: 4000,
+           dots: true,
+        });
+         $('#slider_2').slick({
+         autoplay: true,
+          fade: true,
+          autoplaySpeed: 2000,
+          speed: 4000,
+          dots: true,
+        });
+        
+         $('#slider_3').slick({
+         autoplay: true,
+            fade: true,
+            autoplaySpeed: 2000,
+            speed: 4000,
+            dots: true,
+        });
+     });
