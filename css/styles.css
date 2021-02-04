@@ -1,22 +1,44 @@
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
 body, ul {
   margin: 0px;
   padding: 0px;
   font-size: 14px;
+  background-color: #ffffff;
 }
 
-cursor: url('logo.cur'), auto;
+cursor {
+   url('logo.cur'), auto;
+ }
 
 div {
     cursor:url('Logo.cur'),auto;
 }
 
-h1, h2, {
-  font-family: 'IBM Plex Mono', monospace;
-  padding: 150px 150px;
+h1, h2, h3 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+padding: 0px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 120%;
+  color: #000e17;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 120%;
+  }
+
+h3 {
+  font-size: 20px;
+  line-height: 120%;
 }
 
 img {
@@ -28,11 +50,12 @@ div {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #ffffff;
     position: fixed;
     z-index: 1;
     width: 100%;
     border-bottom: 1px solid black;
+    padding: 0px 0px;s
 }
 
 nav li a {
@@ -82,25 +105,6 @@ header {
     z-index: 1px;
 }
 
-h1 {
-  font-size: 50px;
-  line-height: 120%;
-}
-
-h2 {
-  font-size: 40px;
-  line-height: 120%;
-  }
-
-h3 {
-  font-size: 20px;
-  line-height: 120%;
-}
-
-  h1 h2 {
-    font-weight: normal;
-  }
-
 ul li {
   list-style: none;
   margin: 10px 0px;
@@ -121,16 +125,16 @@ li.empty {
   border: 1px solid black;
   text-decoration: none;
   color: black;
-  padding: 10px 30px;
-  margin-top: 40px;
+  padding: 15px 20px;
+  margin-top: 15px;
   display: inline-block;
-  border-radius: 20px;
-  transition: background 0.5s ease-in-out; color ease-in-out;
+  border-radius: 45%;
+  transition: background 0.25s ease-in-out; color ease-in-out;
 }
 
 .button:hover {
-  background: black;
-  color: white;
+  background: yellow;
+  color: black;
 }
 
 .project {
@@ -139,24 +143,60 @@ li.empty {
 }
 
 .project .button {
+  font-family: 'Helvetica', sans-serif;
   margin-top: 10px;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
-}
+        .collapsible {
+          font-family: 'Syne', sans-serif;
+          font-weight: 800;
+          text-transform: uppercase;
+          padding: 30px 0px 30px 0px;
+          color: black;
+          font-size: 25px;
+          font-weight: bold, 800px;
+          border: none;
+          background-color: #ffffff;
+        }
 
-#slider_1  {
-  overflow: hidden;
-  padding: 0 10px;
-  width: 50%;
-}
+
+        .active, .collapsible:hover {
+            background: #ffffff;
+            color: black;
+            text-decoration: underline;
+        }
+
+        .content {
+          padding: 0px 0px;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+          background-color: #ffffff;
+        }
 
 .container-body {
   display: flex;
   flex-direction: row;
 }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 
 }
 .control ul {
@@ -183,7 +223,6 @@ li.empty {
 footer {
   width: 100%;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
   z-index: 1;
 }
 
@@ -202,6 +241,15 @@ footer h2 {
 }
 
 figcaption {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 10px;
+}
+
+.skills-list {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: 40px;
+  line-height: 150%;
+  margin-bottom: 100px;
 }
