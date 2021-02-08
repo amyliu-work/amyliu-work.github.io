@@ -46,7 +46,7 @@ img {
 }
 
 div {
-   cursor: url(logo.cur), pointer;
+   cursor: pointer;
 }
 
 nav {
