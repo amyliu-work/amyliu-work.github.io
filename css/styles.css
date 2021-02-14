@@ -13,14 +13,13 @@ body, ul {
 
 
 h1, h2, h3 {
-  font-family: 'Helvetica', monospace;
-  font-weight: 400;
+font-family: 'Helvetica', monospace;
+font-weight: 400;
 padding: 0px 0px 0px 0px;
 letter-spacing: 1px;
 }
 
 h1 {
-  font-family: 'Helvetica', sans-serif;
   font-size: 50px;
   line-height: 120%;
   color: #000000;
