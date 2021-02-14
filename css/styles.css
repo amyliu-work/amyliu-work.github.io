@@ -11,24 +11,19 @@ body, ul {
   background-color: #ffffff;
 }
 
-cursor {
-   url('logo.cur'), auto;
- }
-
-div {
-    cursor:url('Logo.cur'),auto;
-}
 
 h1, h2, h3 {
-  font-family: 'Syne', sans-serif;
-  font-weight: 800;
+  font-family: 'Helvetica', monospace;
+  font-weight: 400;
 padding: 0px 0px 0px 0px;
+letter-spacing: 1px;
 }
 
 h1 {
+  font-family: 'Helvetica', sans-serif;
   font-size: 50px;
   line-height: 120%;
-  color: #000e17;
+  color: #000000;
 }
 
 h2 {
@@ -37,16 +32,14 @@ h2 {
   }
 
 h3 {
-  font-size: 20px;
-  line-height: 120%;
+  font-family: 'Xanh Mono', monospace;
+  text-transform: uppercase;
+  border-bottom: 1.5px solid #000000;
+  padding: 5px;
 }
 
 img {
   max-width: 100%;
-}
-
-div {
-   cursor: pointer;
 }
 
 nav {
@@ -54,22 +47,27 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ffffff;
     padding: 0px 0px;s
 }
 
 nav li a {
   text-decoration: none;
-  color: black;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+
 }
 
 nav li a:hover {
   text-decoration: underline;
+  text-decoration-line: underline;
+  text-underline-offset: 3.5px;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0 25px; /*0 refers to top and bottom, 15 pixels to left and right*/
+  margin: 0 30px; /*0 refers to top and bottom, 15 pixels to left and right*/
   padding: 0px;
   letter-spacing: 1px;
   font-size: 14px;
@@ -77,33 +75,59 @@ nav ul li {
 
 nav ul {
   margin: 0 auto;
-  padding: 30px;
+  padding: 50px;
 }
 
 .nav-left {
     float: left;
+    font-family: 'Xanh Mono', monospace;
+    text-transform: uppercase;
 }
 
 .nav-right ul {
     float: right;
+    font-family: 'Xanh Mono', monospace;
+    text-transform: uppercase;
 }
 
 a {
   color: black;
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 a:hover {
   text-decoration: underline;
+  color: black;
 }
 
 header {
-    top: 150px;
+    top: 250px;
     position: relative;
-    margin-bottom: 200px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 550px;
     z-index: 1px;
 }
+
+.intro {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+strong {
+  font-family: 'Xanh Mono', monospace;
+  text-transform: uppercase;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  background: lime;
+}
+
+
 
 ul li {
   list-style: none;
@@ -111,7 +135,7 @@ ul li {
 }
 
 p {
-  line-height: 150%;
+  line-height: 135%;
 }
 
 li.empty {
@@ -128,51 +152,55 @@ li.empty {
   padding: 15px 20px;
   margin-top: 15px;
   display: inline-block;
-  border-radius: 45%;
-  transition: background 0.25s ease-in-out; color ease-in-out;
+  transition: background 0.5s ease-in-out; color ease-in-out;
 }
 
 .button:hover {
-  background: yellow;
+  background: lime;
   color: black;
+  border: 1px solid black;
+  text-decoration: none;
 }
 
 .project {
-  margin: 50px 0;
+  margin: 50px 0px;
   padding: 50px;
 }
 
 .project .button {
   font-family: 'Helvetica', sans-serif;
   margin-top: 10px;
+  padding: 14px 40px;
+  border: 1px solid black;
 }
 
-        .collapsible {
-          font-family: 'Syne', sans-serif;
-          font-weight: 800;
-          text-transform: uppercase;
-          padding: 30px 0px 30px 0px;
+.collapsible {
+          font-family: 'Helvetica', sans-serif;
+          font-weight: bold;
+          text-transform: none;
+          padding: 5px 220px;
           color: black;
-          font-size: 25px;
-          font-weight: bold, 800px;
-          border: none;
+          font-size: 18px;
+          font-weight: 500;
+          border: 1.5px solid black;
           background-color: #ffffff;
         }
 
 
-        .active, .collapsible:hover {
-            background: #ffffff;
-            color: black;
-            text-decoration: underline;
+        .collapsible:hover {
+            background: #000000;
+            color: #ffffff;
+            text-decoration: none;
         }
 
-        .content {
-          padding: 0px 0px;
-          max-height: 0;
-          overflow: hidden;
-          transition: max-height 0.2s ease-out;
-          background-color: #ffffff;
-        }
+          .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #ffffff;
+}
+
+
 
 .container-body {
   display: flex;
@@ -209,13 +237,14 @@ li.empty {
   padding: 0;
   transform: translate(-50%);
 }
+
 .control ul li {
   width: 10px;
   height: 10px;
   border-radius: 50px;
   margin: 10px;
-  cursor: pointer;
 }
+
 .control ul li.selected {
   background: transparent;
 }
@@ -243,13 +272,4 @@ footer h2 {
 figcaption {
   font-size: 12px;
   margin-top: 10px;
-}
-
-.skills-list {
-  font-family: 'Syne', sans-serif;
-  font-weight: 800;
-  text-align: center;
-  font-size: 40px;
-  line-height: 150%;
-  margin-bottom: 100px;
 }

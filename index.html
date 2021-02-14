@@ -7,18 +7,15 @@
     <title>Amy Liu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
     <link rel="icon" href="Logo.ico">
 </head>
 
 
 <body>
-
   <nav>
   <div class="nav-left">
     <ul>
@@ -37,62 +34,47 @@
 
 
 
-<header>
-<section class="header">
-  <div class="container">
-  <div class="row">
-  <div class="col-sm">
-    <figure>
-    <img src="Flowers.gif" alt="Hello" hspace="200">
+  <header>
+  <section class="header">
+    <div class="container">
+      <div class="intro">
+        <div class="col-sm">
+      Amy Liu is a junior graphic and web designer based in <strong>Melbourne, Australia 🌼</strong>.
+      <p><p>
+      Before pursuing a career in graphic design, Amy has worked at an award-winning advertising agency for blue chip clients including financial institutions, insurance and retail.
+      <p><p>
+      Through her experience and interest in the material world, Amy draws on inspiration from pop and consumer culture, synthesising a modern design aesthetic. She aims to create considered and contemporary solutions for the modern brand.<p><p>
+      </div>
+      </div>
   </div>
-
-  <div class="col-sm">
-    <h1>
-    Hi,<br>
-     I'm Amy ✿
-    </h1>
-    <p>
-    ◦ Melbourne-based graphic designer<p>
-      ◦ Bachelor of Business (Advertising/Design)<p>
-        ◦ Diploma of Graphic Design<p>
-          ◦ Currently working at <a href="https://www.cheproximity.com.au/" target="_blank" rel="noopener noreferrer">CHE Proximity</a> as a Production Assistant<p><p>
-
-            <a class="button" href="https://www.linkedin.com/in/amy-liu-92997185/" target="_blank" rel="noopener noreferrer">Let's connect :-)</a>
-  </div>
-
-  </div>
-  </div>
-</section>
-</header>
+  </section>
+  </header>
 
 
 <!-- Projects -->
 
 
-<!-- BaoBei Restaurant-->
+<!-- Bush to Bowl Restaurant-->
 
 <section class="project" id="work">
   <div class="container">
   <div class="row">
     <!-- left column -->
   <div class="col-sm">
-    <h2>Bush to Bowl</h2>
-      <p>A brand identity created for an Aboriginal-owned horticultural startup aimed at developing a space for people to engage with native plants.
+    <h3>Bush to Bowl</h3>
+      <p>A brand identity created for a horticultural startup aimed at developing a space for people to engage with native plants.
   </div>
 
   <!-- right column -->
     <div class="col-sm">
-
     <figure>
       <img src="projects/BTB_BusinessCards.jpg" alt="Bush to Bowl">
     </figure>
     <figcaption>Brand identity for a plant-based startup</figcaption>
 
+    <button class="collapsible">View More</button>
 
-    <button class="collapsible">More ↓</button>
     <div class="content">
-      <p><p>
-
     <figure>
     <img src="projects/BTB_RecipeCard_Mockup.png" alt="Bush to Bowl">
     </figure>
@@ -103,12 +85,10 @@
     <img src="projects/BTB_OrderingForm.png" alt="Bush to Bowl">
     </figure>
     <figcaption>Brand identity for a plant-based startup</figcaption>
-
-
-    </div>
-
     </div>
     </div>
+    </div>
+  </div>
 </section>
 
 <!-- BaoBei -->
@@ -118,7 +98,7 @@
   <div class="row">
     <!-- left column -->
   <div class="col-sm">
-      <h2>Baobei Restaurant</h2>
+      <h3>Baobei Restaurant</h3>
         <p>A brand identity made for my dream restaurant.</p>
   </div>
 
@@ -130,10 +110,8 @@
       </figure>
       <figcaption>Business cards for a Chinese restaurant</figcaption>
 
-
-      <button class="collapsible">More ↓</button>
-
-      <div class="content"><p><p>
+      <button class="collapsible">View More</button>
+      <div class="content">
 
         <figure>
         <img src="projects/BB_Takeaway_Mockup.png" alt="Baobei Restaurant">
@@ -166,8 +144,7 @@
   <div class="row">
     <!-- left column -->
   <div class="col-sm">
-    <h2>Holiday<br>
-      Pickles</h2>
+    <h3>Holiday Pickles</h3>
     <p>A label designed as part of the Christmas gifts I lovingly distributed to family and friends last year.</p>
   </div>
 
@@ -194,7 +171,7 @@
   <div class="row">
     <!-- left column -->
   <div class="col-sm">
-    <h2>Gong Gong Records</h2>
+    <h3>Gong Gong Records</h3>
     <p>A brand identity made for a record label.</p>
   </div>
 
@@ -205,8 +182,7 @@
       <figcaption>Brand identity for a record label</figcaption>
       </figure>
 
-
-      <button class="collapsible">More ↓</button>
+      <button class="collapsible">View More</button>
       <div class="content"><p><p>
           <figure>
             <img src="projects/GG_BusinessCards_Mockup.png" alt="Gong Gong Records">
@@ -255,10 +231,10 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+    if (content.style.display === "block") {
+      content.style.display = "none";
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.display = "block";
     }
   });
 }
