@@ -51,7 +51,6 @@ nav {
 
 nav li a {
   text-decoration: none;
-  font-family: 'Xanh Mono', monospace;
   font-size: 18px;
   text-transform: uppercase;
 
@@ -84,7 +83,7 @@ nav ul {
 
 .nav-right ul {
     float: right;
-    font-family: 'Xanh Mono', monospace;
+    font-family: 'Helvetica', sans-serif;
     text-transform: uppercase;
 }
 
@@ -96,7 +95,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: lime;
 }
 
 header {
