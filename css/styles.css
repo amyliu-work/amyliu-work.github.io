@@ -30,10 +30,10 @@ h2 {
   }
 
 h3 {
-  font-family: 'Xanh Mono', monospace;
+  font-family: 'Xanh Mono', monospace;;
+  font-weight: bold;
+  letter-spacing: 1.25px;
   text-transform: uppercase;
-  border-bottom: 1.5px solid #000000;
-  padding: 5px;
 }
 
 img {
@@ -113,13 +113,14 @@ header {
   font-family: 'Helvetica', sans-serif;
   font-size: 25px;
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.25px;
   line-height: 160%;
 }
 
 strong {
   font-family: 'Xanh Mono', monospace;
   text-transform: uppercase;
+  font-size: 28px;
   padding: 5px;
   border-bottom: 1px solid black;
   background: lime;
