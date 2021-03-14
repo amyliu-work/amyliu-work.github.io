@@ -30,10 +30,10 @@ h2 {
   }
 
 h3 {
-  font-family: 'Xanh Mono', monospace;;
-  font-weight: bold;
+  font-family: 'Xanh Mono', monospace;
+  font-style: italic;
   letter-spacing: 1.25px;
-  text-transform: uppercase;
+  text-transform: ;
 }
 
 img {
