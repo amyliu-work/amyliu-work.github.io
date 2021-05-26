@@ -12,7 +12,6 @@ body, ul, header, nav {
 }
 
 @font-face {
-<<<<<<< HEAD
 font-family: "Editorial New", serif;
 src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff") format("woff");
 src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff2") format("woff2");
@@ -28,22 +27,8 @@ src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.woff2") format("wo
 src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.otf") format("opentype");
 src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.eot") format("embedded-opentype");
 src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.ttf") format("truetype");
-=======
-font-family: "EditorialNew-Regular", serif;
-src: url("../fonts/EditorialNew-Regular.woff") format("woff"),
-url("../fonts/EditorialNew-Regular.woff2") format('woff2'),
-url("../fonts/EditorialNew-Regular.otf") format("opentype"),
-url("../fonts/EditorialNew-Regular.ttf") format('truetype'),
-}
 
-@font-face {
-font-family: "RadioGrotesk-Regular", sans-serif;
-src: url("../fonts/RadioGrotesk-Regular.woff") format("woff"),
-url("../fonts/RadioGrotesk-Regular.woff2") format('woff2'),
-url("../fonts/RadioGrotesk-Regular.otf") format("opentype");
->>>>>>> 0a5d3f9435fdedb7699fbb0bcb13aff1b2a6e484
 }
-
 
 h1, h2 {
 font-family: "EditorialNew-Regular", serif;
