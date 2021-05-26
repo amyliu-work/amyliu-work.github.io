@@ -13,17 +13,17 @@ body, ul, header, nav {
 
 @font-face {
 font-family: "Editorial New", serif;
-src: url("fonts/EditorialNew.woff") format("woff"),
-url("fonts/EditorialNew-Regular.woff2") format('woff2'),
-url("fonts/EditorialNew.otf") format("opentype"),
-url("fonts/EditorialNew-Regular.ttf") format('truetype'),
+src: url("/fonts/EditorialNew.woff") format("woff"),
+url("/fonts/EditorialNew-Regular.woff2") format('woff2'),
+url("/fonts/EditorialNew.otf") format("opentype"),
+url("/fonts/EditorialNew-Regular.ttf") format('truetype'),
 }
 
 @font-face {
 font-family: "Radio Grotesk", sans-serif;
-src: url("fonts/RadioGrotesk-Regular.woff") format("woff"),
-url("fonts/RadioGrotesk-Regular.woff2") format('woff2'),
-url("fonts/RadioGrotesk-Regular.otf") format("opentype");
+src: url("/fonts/RadioGrotesk-Regular.woff") format("woff"),
+url("/fonts/RadioGrotesk-Regular.woff2") format('woff2'),
+url("/fonts/RadioGrotesk-Regular.otf") format("opentype");
 }
 
 
