@@ -1,5 +1,5 @@
 body {
-  font-family: "RadioGrotesk-Regular", sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
 
@@ -31,14 +31,14 @@ src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.ttf") format("true
 }
 
 h1, h2 {
-font-family: "EditorialNew-Regular", serif;
+font-family: "Editorial New", serif;
 font-size: 40px;
 padding: 0px 0px 0px 0px;
 letter-spacing: -1px;
 }
 
 h3 {
-font-family: "EditorialNew-Regular", serif;
+font-family: "Editorial New", serif;
 font-size: 30px;
 padding: 0px 0px 0px 0px;
 text-transform: none;
@@ -56,7 +56,7 @@ nav {
     z-index: 1;
     width: 100%;
     padding: 0px 0px;
-    font-family: "RadioGrotesk-Regular", sans-serif;
+    font-family: "Radio Grotesk", sans-serif;
     font-weight: normal;
     font-size: 30px;
 }
@@ -66,7 +66,7 @@ nav li a {
   font-size: 16px;
   cursor: crosshair;
   text-transform: none;
-  font-family: "RadioGrotesk-Regular", sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
   font-weight: normal;
   font-size: 30px;
 }
@@ -91,13 +91,13 @@ nav ul {
 
 .nav-left {
     float: left;
-    font-family: "RadioGrotesk-Regular", sans-serif;
+    font-family: "Radio Grotesk", sans-serif;
     line-height: 100%;
 }
 
 .nav-right ul {
     float: right;
-    font-family: "RadioGrotesk-Regular", sans-serif;
+    font-family: "Radio Grotesk", sans-serif;
   }
 
 a {
@@ -137,7 +137,7 @@ header {
 
 
 .intro {
-  font-family: 'RadioGrotesk-Regular', sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
   font-size: 25px;
   font-weight: 500;
   letter-spacing: 0.25px;
@@ -145,7 +145,7 @@ header {
 }
 
 strong {
-  font-family: "RadioGrotesk-Regular", sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
   font-size: 40px;
   padding: 5px;
   border-bottom: 1px solid black;
@@ -155,7 +155,7 @@ strong {
 ul li {
   list-style: none;
   margin: 10px 0px;
-  font-family: "RadioGrotesk-Regular", sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
 
 }
 
@@ -198,7 +198,7 @@ li.empty {
 }
 
 .project .button {
-  font-family: 'RadioGrotesk-Regular', sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
   margin-top: 10px;
   padding: 14px 40px;
   border: 1px solid black;
@@ -208,7 +208,7 @@ li.empty {
 
 /*refers to the collapsible button*/
 .collapsible {
-  font-family: "RadioGrotesk-Regular", sans-serif;
+  font-family: "Radio Grotesk", sans-serif;
           font-weight: bold;
           text-transform: none;
           padding: 5px 220px;
