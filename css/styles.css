@@ -1,5 +1,5 @@
 body {
-  font-family: "Radio Grotesk", sans-serif;
+  font-family: "RadioGrotesk-Regular", sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
 
@@ -8,37 +8,34 @@ body {
 body, ul, header, nav {
   margin: 0px;
   padding: 0px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 @font-face {
-font-family: "Editorial New", serif;
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff") format("woff");
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff2") format("woff2");
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.otf") format("opentype");
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.eot") format("embedded-opentype");
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.ttf") format("truetype");
+font-family: "EditorialNew-Regular", serif;
+src: url("../fonts/EditorialNew-Regular.woff") format("woff"),
+url("../fonts/EditorialNew-Regular.woff2") format('woff2'),
+url("../fonts/EditorialNew-Regular.otf") format("opentype"),
+url("../fonts/EditorialNew-Regular.ttf") format('truetype'),
 }
 
 @font-face {
-font-family: "Radio Grotesk", sans-serif;
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.woff") format("woff");
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.woff2") format("woff2");
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.otf") format("opentype");
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.eot") format("embedded-opentype");
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.ttf") format("truetype");
+font-family: "RadioGrotesk-Regular", sans-serif;
+src: url("../fonts/RadioGrotesk-Regular.woff") format("woff"),
+url("../fonts/RadioGrotesk-Regular.woff2") format('woff2'),
+url("../fonts/RadioGrotesk-Regular.otf") format("opentype");
 }
 
 
 h1, h2 {
-font-family: "Editorial New", serif;
+font-family: "EditorialNew-Regular", serif;
 font-size: 40px;
 padding: 0px 0px 0px 0px;
 letter-spacing: -1px;
 }
 
 h3 {
-font-family: "Editorial New", serif;
+font-family: "EditorialNew-Regular", serif;
 font-size: 30px;
 padding: 0px 0px 0px 0px;
 text-transform: none;
@@ -56,7 +53,7 @@ nav {
     z-index: 1;
     width: 100%;
     padding: 0px 0px;
-    font-family: "Radio Grotesk", sans-serif;
+    font-family: "RadioGrotesk-Regular", sans-serif;
     font-weight: normal;
     font-size: 30px;
 }
@@ -66,7 +63,7 @@ nav li a {
   font-size: 16px;
   cursor: crosshair;
   text-transform: none;
-  font-family: "Radio Grotesk", sans-serif;
+  font-family: "RadioGrotesk-Regular", sans-serif;
   font-weight: normal;
   font-size: 30px;
 }
@@ -91,13 +88,13 @@ nav ul {
 
 .nav-left {
     float: left;
-    font-family: "Radio Grotesk", sans-serif;
+    font-family: "RadioGrotesk-Regular", sans-serif;
     line-height: 100%;
 }
 
 .nav-right ul {
     float: right;
-    font-family: "Radio Grotesk", sans-serif;
+    font-family: "RadioGrotesk-Regular", sans-serif;
   }
 
 a {
@@ -137,7 +134,7 @@ header {
 
 
 .intro {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'RadioGrotesk-Regular', sans-serif;
   font-size: 25px;
   font-weight: 500;
   letter-spacing: 0.25px;
@@ -145,7 +142,7 @@ header {
 }
 
 strong {
-  font-family: "Radio Grotesk", sans-serif;
+  font-family: "RadioGrotesk-Regular", sans-serif;
   font-size: 40px;
   padding: 5px;
   border-bottom: 1px solid black;
@@ -155,7 +152,7 @@ strong {
 ul li {
   list-style: none;
   margin: 10px 0px;
-  font-family: "Radio Grotesk", sans-serif;
+  font-family: "RadioGrotesk-Regular", sans-serif;
 
 }
 
@@ -198,7 +195,7 @@ li.empty {
 }
 
 .project .button {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'RadioGrotesk-Regular', sans-serif;
   margin-top: 10px;
   padding: 14px 40px;
   border: 1px solid black;
@@ -208,7 +205,7 @@ li.empty {
 
 /*refers to the collapsible button*/
 .collapsible {
-  font-family: "Radio Grotesk", sans-serif;
+  font-family: "RadioGrotesk-Regular", sans-serif;
           font-weight: bold;
           text-transform: none;
           padding: 5px 220px;
