@@ -1,19 +1,18 @@
 @font-face {
 font-family: "Editorial New", serif;
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.eot") format("embedded-opentype");
-src: url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff") format("woff"),
-url("https://amyliu-github.io/fonts/EditorialNew-Regular.woff2") format("woff2"),
-url("https://amyliu-github.io/fonts/EditorialNew-Regular.otf") format("opentype"),
-url("https://amyliu-github.io/fonts/EditorialNew-Regular.ttf") format("truetype");
+src: url("../fonts/EditorialNew-Regular.eot") format("embedded-opentype");
+src: url("../fonts/EditorialNew-Regular.woff") format("woff"),
+url("../fonts/EditorialNew-Regular.woff2") format("woff2"),
+url("../fonts/EditorialNew-Regular.otf") format("opentype"),
+url("../fonts/EditorialNew-Regular.ttf") format("truetype");
 }
 
 @font-face {
 font-family: "Radio Grotesk", sans-serif;
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.eot") format("embedded-opentype");
-src: url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.woff") format("woff"),
-url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.woff2") format("woff2"),
-url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.otf") format("opentype"),
-url("https://amyliu-github.io/fonts/RadioGrotesk-Regular.ttf") format("truetype");
+src: url("../fonts/RadioGrotesk-Regular.eot") format("embedded-opentype");
+src: url("../RadioGrotesk-Regular.woff") format("woff"),
+url("../fonts/RadioGrotesk-Regular.otf") format("opentype"),
+url("../fonts/RadioGrotesk-Regular.ttf") format("truetype");
 }
 
 body {
