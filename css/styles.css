@@ -31,7 +31,7 @@
 
 body {
   font-family: "radio_groteskregular", sans-serif;
-  font-size: 20px;
+  font-size: 1em;
   letter-spacing: 1px;
 }
 
@@ -50,7 +50,7 @@ letter-spacing: -1px;
 }
 
 h3 {
-font-family: "radio_groteskregular", serif;
+font-family: "editorial_newregular", serif;
 font-size: 30px;
 padding: 0px 0px 0px 0px;
 text-transform: none;
