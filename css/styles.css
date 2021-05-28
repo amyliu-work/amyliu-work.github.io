@@ -43,7 +43,7 @@ body, ul, header, nav {
 
 
 h1, h2 {
-font-family: "radio_groteskregular", serif;
+font-family: "editorial_newregular", serif;
 font-size: 40px;
 padding: 0px 0px 0px 0px;
 letter-spacing: -1px;
@@ -110,7 +110,7 @@ nav ul {
 
 .nav-right ul {
     float: right;
-    font-family: "Radio Grotesk", sans-serif;
+    font-family: "radio_groteskregular", sans-serif;
   }
 
 a {
