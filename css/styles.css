@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: 'editorial_newregular';
-    src: url('editorialnew-regular-webfont.woff2') format('woff2'),
-         url('editorialnew-regular-webfont.woff') format('woff');
+  font-family: 'radio_groteskbold';
+  src: url('radiogrotesk-bold-webfont.woff2') format('woff2'),
+       url('radiogrotesk-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -65,14 +65,14 @@ body, ul, header, nav {
 
 
 h1, h2 {
-font-family: "editorial_newregular", serif;
+  font-family: "radio_groteskregular", sans-serif;
 font-size: 40px;
 padding: 0px 0px 0px 0px;
 letter-spacing: 0px;
 }
 
 h3 {
-font-family: "editorial_newregular", serif;
+  font-family: "radio_groteskregular", sans-serif;
 font-size: 30px;
 padding: 0px 0px 0px 0px;
 text-transform: none;
