@@ -107,7 +107,7 @@ nav li a {
   cursor: crosshair;
   text-transform: none;
   font-family: "radio_groteskregular", sans-serif;
-  font-weight: normal;
+  font-weight: light;
   font-size: 30px;
 }
 
@@ -122,6 +122,7 @@ nav ul li {
   letter-spacing: 1px;
   font-size: 25px;
   font-family: "radio_groteskregular", sans-serif;
+  font-weight: light;
 }
 
 nav ul {
@@ -324,7 +325,7 @@ li.empty {
 
 footer {
   width: 100%;
-  border-top: 1px solid black;
+  background-color: #d6eadd;
   z-index: 1;
 }
 
